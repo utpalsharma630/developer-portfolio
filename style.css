@@ -97,3 +97,14 @@ main{
     max-width: 1140px;
     margin: auto;
 }
+.skills{
+    margin: 20px 10px;
+}
+.skills-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.skills-description{
+    font-size: 16px;
+    font-weight: 400;
+}
