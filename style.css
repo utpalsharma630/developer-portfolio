@@ -92,3 +92,8 @@ main{
 .about-info{
     text-align: center;
 }
+.skills-containar{
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+}
