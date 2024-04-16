@@ -4,10 +4,10 @@ body{
 }
 header{
     background-color:#FFF8F3 ;
-    background-image: url('images/bg.png');
+    background-image: url('images/bg.png'), url('images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
-    padding-bottom: 10px;
+    background-position: bottom right, top left;
+    
 }
 .nav-bar{
     font-size: 45px;
@@ -46,6 +46,7 @@ header{
 }
 .title-text{
     width: 50%;
+    padding-bottom: 30px;
 }
 .title-text h4{
     font-size: 45px;
@@ -59,9 +60,11 @@ header{
     font-size: 18px;
     font-weight: 400;
 }
+
 .title-img img{
     max-width: 500px;
-    margin: -10px;
+    margin-bottom: -5px;
+    
 }
 /* header section is the end*/
 .about{
@@ -116,7 +119,7 @@ main{
 }
 .resume{
     display: flex;
-    gap: 30px;
+    gap: 50px;
     margin: 45px;
 }
 .education{
@@ -125,16 +128,68 @@ main{
 .resume-heading{
     font-size: 30px;
     font-weight: 700;
+    color: #474747;
 }
 .resume-title{
     font-size: 25px;
     font-weight: 700;
+    color: #474747;
 }
 .resume-session{
     font-size: 20px;
     font-weight: 600;
 }
 .resume-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+.button{
+    text-align: center;
+    margin: 20px 0 60px 0;
+}
+.cv-button{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-style: none;
+    border-radius: 7%;
+    
+}
+footer{
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+    margin-top: 30px;
+}
+.footer-colum{
+    width: 50%;
+    
+}
+.footer-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    
+    
+}
+.links-icon a{
+    margin-right: 20px;
+    
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 20px;
+    width: 80%;
+    padding: 20px 15px;
+    border: 0;
+    border-radius: 5px;
     font-size: 16px;
     font-weight: 400;
 }
