@@ -193,3 +193,40 @@ footer{
     font-size: 16px;
     font-weight: 400;
 }
+
+
+/* responsive design */
+@media screen and (max-width:640px){
+    .nav-bar{
+        flex-direction: column;
+    }
+    .Mary{
+        flex-direction: column;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    .skills-containar{
+        flex-direction: column;
+        
+    }
+    .resume {
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .title-img img{
+        max-width: 250px;
+    }
+    .footer-colum {
+        width: 100%;
+    }
+    .nav-bar >ul  {
+        flex-direction: column;
+        padding: 15px 0;
+    }
+}
+
+
