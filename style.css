@@ -39,6 +39,7 @@ header{
     font-weight: 700;
     border-style: none;
     border-radius: 7%;
+    cursor: pointer;
 }
 .Mary{
     margin-left: 10%;
