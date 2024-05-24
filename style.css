@@ -187,8 +187,13 @@ footer{
     
     
 }
+.links-icon{
+    display: flex;
+}
 .links-icon a{
     margin-right: 20px;
+    
+
     
 }
 .contact input, textarea{
